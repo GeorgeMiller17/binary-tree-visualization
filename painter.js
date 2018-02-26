@@ -89,7 +89,7 @@ function build(tree, cxt, rpx, tpx, wpx) {
 }
 
 function main() {
-	maxRowNode = parseInt(prompt("Please enter the maximum number of nodes one row can contain, so the program can adjust the size of nodes.", "64"));
+	maxRowNode = parseInt(prompt("Please enter the maximum number of nodes one row can contain", "64"));
 	var wpx = getWidth() - 100;
 	var hpx = getHeight() - 100;
 	document.getElementById("Cvs").setAttribute("width", String(wpx));
